@@ -6,19 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-Swapnil_Shinde</title>
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
 </head>
 <body>
-    <!-- Particles.js div -->
-    <div id="particles-js">
-        <div class="heading">
-            <h1>Swapnil Shinde</h1>
-            <button class="github_link"
-                onClick="window.location.href='https://github.com/Swapnilss53' " <i class="fa-brands fa-github"></i>>Github
-            </button>
+    <header>
+        <div class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Resume">Resume</a>
+            <a href="#Contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
-    </div>
+        <div id="particles-js">
+            <div class="heading">
+                <h1>Swapnil Shinde</h1>
+                <button class="github_link"
+                    onClick="window.location.href='https://github.com/Swapnilss53' "><i class="fa fa-github"></i>    Github
+                </button>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="about" id="About">
+            <div class="image">
+                <img src="assets/profilephoto-modified.png" alt="profile photo">
+            </div>
+            <div class="info">
+                <h1>About Me</h1>
+            <p>A student at MET,Institute of Engineering, I am interested in  full-stack development technologies. I have previously worked with a variety of technologies and have experience Python, c++, HTML/CSS, Javascript</p>
+            <h1>Conatct Deatails</h1>
+            <h4>Swapnil Shinde</h4>
+            <h4>swapnilsshinde2001@gmail.com</h4>
+            <button class="resume-button"
+            onClick="window.location.href='assets/Swapnil_Shinde_Resume .pdf' "><i class="fa fa-download"></i>  Download Resume
+        </button>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Particles.js div -->
+    
   
     <!-- Import Particles.js and app.js files -->
     <script src=
@@ -27,5 +58,6 @@
     <script src=
         "particles.js-master/demo/js/app.js">
     </script>
+    <script src="app.js"></script>
 </body>
 </html>
